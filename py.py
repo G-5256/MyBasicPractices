@@ -4,17 +4,40 @@ from itertools import zip_longest
 
 x=10
 y=(i**2 for i in range(x+1) if(i%2!=0))
-
+print (y)
 #string concatinate
 name="Hello"
 print(f"{name} LAmbda")
 #Hello LAmbda
+'''
+Lamba anonymous function(function without name) 
+can take any number of arguments
+ But return  only one Expression
+One is free to use lambda functions
+wherever function objects are required.
+In Python, an anonymous function is a 
+function that is defined without a name.
 
-# Lamba anonymous function(function without name) 
-# can take any number of arguments
-#  But return  only one Expression
-#One is free to use lambda functions
-# wherever function objects are required.
+While normal functions are defined using
+ the def keyword in Python, anonymous functions
+ are defined using the lambda keyword.
+
+Syntax:
+lambda arguments: expression
+(lambda arguments:expression)(proper arguments)
+
+Example of Lambda function in Python:
+'''
+
+lambda x, y: x + y
+print("(lambda x, y: x + y)(10, 20) =", (lambda x, y: x + y)(10, 20))
+lambda x, y: x//y
+print("(lambda x,y:x//y)(10,2) =",(lambda x,y:x//y)(10,2))
+
+
+
+
+
 
 (lambda name:print(f"{name} Gaurav"))("(lamda arg: expr)(string calling)")
 z = lambda x,y:x*y
