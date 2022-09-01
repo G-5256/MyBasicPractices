@@ -47,6 +47,7 @@ print(z(2,10))
 
 #
 
+
 lmbda=[ lambda x = x:x*x for x in range(1,10)]
 for i in lmbda:
     print(i(),end=" ")
