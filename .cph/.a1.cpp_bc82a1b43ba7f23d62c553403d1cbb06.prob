@@ -1,0 +1,1 @@
+{"name":"Local: a1","url":"/home/gaurav/Desktop/python/a1.cpp","tests":[{"id":1662487317195,"input":"22\n113\n135\n62\n14\n161\n129\n375\n66\n7\n-1","output":"98"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/gaurav/Desktop/python/a1.cpp","group":"local","local":true}

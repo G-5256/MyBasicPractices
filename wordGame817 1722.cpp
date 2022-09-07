@@ -14,7 +14,10 @@ int main(){
         abc
         sss
         abc
-        
+        3
+        asa asa asa 
+        asd asd ffd
+        fde fda ffd
         */
        string s[3][n];
         for(int i=0;i<3;i++){
